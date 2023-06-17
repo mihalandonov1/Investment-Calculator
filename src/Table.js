@@ -10,7 +10,7 @@ const formatter = new Intl.NumberFormat("en-US", {
 
 const Table = (props) => {
   return (
-    <table className={styles.result}>
+    <table className={styles["result"]}>
       <thead>
         <tr>
           <th>Year</th>
