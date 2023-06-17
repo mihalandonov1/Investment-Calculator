@@ -85,10 +85,14 @@ const Form = (props) => {
           </p>
         </div>
         <p className="actions">
-          <button onClick={resetHandler} type="reset" className="buttonAlt">
+          <button
+            onClick={resetHandler}
+            type="reset"
+            className={styles["buttonAlt"]}
+          >
             Reset
           </button>
-          <button type="submit" className="button">
+          <button type="submit" className={styles["button"]}>
             Calculate
           </button>
         </p>
